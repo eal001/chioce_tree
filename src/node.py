@@ -23,6 +23,7 @@ class Node:
         self.x0 = 0
         self.y0 = 0
         self.has_description_node = False
+        self.child_prompt = ""
 
 
     # adds a child to the list, but the child needs to be constructed as a node first    
